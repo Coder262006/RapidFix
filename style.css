@@ -1,0 +1,88 @@
+#background{
+    margin: 0px;
+    padding:0px;
+    height:100vh;
+    background-image: url(road8.jpg);
+    background-position:center;
+    background-size:cover;
+}
+.logo img{
+    height: 100px;
+    width:100px;
+}
+.tagline{
+  position: absolute;
+  bottom: 90px; 
+  left: 50%;
+  transform: translateX(-50%);
+  color: #ffffff; 
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.get-started-btn {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #e63946; 
+  color: #fff;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.get-started-btn:hover{
+    box-shadow: 2px 2px 10px black;
+}
+
+.onboarding{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.5);
+    width:60%;
+    position: absolute;
+    top:10px;
+    left:30%;
+    border-radius: 5px;
+    
+    
+}
+.onboarding a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.onboarding a:hover{
+    color: rgb(255, 191, 0);
+}
+.about{
+    background-color:rgba(0, 0, 0, 0.5) ;
+    color: rgb(255, 191, 0);
+    height: 250px;
+    width:30%;
+    border-radius:10px;
+    position: absolute;
+    top: 150px;
+    left:34%;
+    font-size: 20px;
+    padding: 10px;
+}
+.login-btn {
+  padding: 10px 20px;
+  background-color: #FFC107; /* Yellow road theme */
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: 0.3s;
+  position: absolute;
+  left: 750px;
+  top: 0px;
+}
+
+.login-btn:hover {
+  background-color: #FF9800;
+}
